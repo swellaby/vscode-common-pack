@@ -1,4 +1,4 @@
-# Swellaby Common Extension Pack  
+# Swellaby Extension Pack  
 
 [![Version Badge][version-badge]][ext-url]
 [![Installs Badge][installs-badge]][ext-url]
@@ -8,7 +8,7 @@
 [![Test Results Badge][tests-badge]][ci-pipeline-url]
 [![License Badge][license-badge]][license-url]
 
-VS Code Extension Pack that contains a few common extensions that we use everywhere. We noticed we were adding these three as workspace extension recommendations in every project so we decided to bundle them together in this pack!  
+VS Code Extension Pack that contains a few common extensions that we use everywhere. We noticed we were adding these as workspace extension recommendations in every project so we decided to bundle them together in this pack!  
 
 ## Included Extensions
 
