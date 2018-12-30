@@ -3,10 +3,22 @@
 const { assert } = require('chai');
 const manifest = require('../package.json');
 
-suite('Extension Pack Tests', () => {
+suite('Included Extensions Tests', () => {
     const extensions = manifest.extensionPack;
 
-    it ('Should include XYZ', () => {
-        assert.isTrue(true);
+    test('Should have the correct number of extensions', () => {
+        assert.deepEqual(extensions.length, 3);
+    });
+
+    test('Should include EditorConfig extension', () => {
+        assert.isTrue(extensions.includes('editorconfig.editorconfig'));
+    });
+
+    test('Should include CodeSpell Checker extension', () => {
+        assert.isTrue(extensions.includes('streetsidesoftware.code-spell-checker'));
+    });
+
+    test('Should include Git Lens extension', () => {
+        assert.isTrue(extensions.includes('eamodio.gitlens'));
     });
 });

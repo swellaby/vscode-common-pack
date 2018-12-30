@@ -1,8 +1,8 @@
 {
 	"name": "common-pack",
-	"displayName": "Swellaby Common Extension Pack",
+	"displayName": "Swellaby Extension Pack",
 	"description": "A set of common extensions that we use everywhere",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"preview": true,
 	"private": true,
 	"publisher": "Swellaby",
@@ -15,11 +15,17 @@
 		"Extension Packs"
 	],
 	"extensionPack": [
+		"editorconfig.editorconfig",
+		"streetsidesoftware.code-spell-checker",
+		"eamodio.gitlens"
 	],
 	"keywords": [
-	],
+    "editorconfig",
+    "code spell",
+    "gitlens"
+  ],
 	"galleryBanner": {
-		"color": "#18bc9c",
+		"color": "#2c3e50",
 		"theme": "dark"
 	},
 	"engines": {
@@ -51,7 +57,7 @@
 	},
 	"license": "MIT",
 	"bugs": {
-		"url": "https://github.com/swellaby/vscode-common-pack/issues/new",
+		"url": "https://github.com/swellaby/vscode-common-pack/issues/new/choose",
 		"email": "opensource@swellaby.com"
 	},
 	"repository": {
