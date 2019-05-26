@@ -2,7 +2,7 @@
 	"name": "common-pack",
 	"displayName": "Swellaby Extension Pack",
 	"description": "A set of common extensions that we use everywhere",
-	"version": "0.2.2",
+	"version": "0.2.3",
 	"preview": true,
 	"private": true,
 	"publisher": "Swellaby",
