@@ -55,7 +55,7 @@
 		"eslint": "^6.0.0",
 		"mkdirp": "^0.5.1",
 		"mocha": "^6.1.4",
-		"rimraf": "^2.6.3",
+		"rimraf": "^3.0.0",
 		"vsce": "^1.62.0"
 	},
 	"license": "MIT",
