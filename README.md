@@ -23,11 +23,11 @@ Have a question, feature request, or need to report a bug? Open an issue [here][
 MIT - see license details [here][license-url] 
 
 [license-url]: https://github.com/swellaby/vscode-common-pack/blob/master/LICENSE
-[license-badge]: https://img.shields.io/github/license/swellaby/vscode-common-pack.svg?style=flat-square
+[license-badge]: https://img.shields.io/github/license/swellaby/vscode-common-pack.svg?style=flat-square&color=blue
 [ci-badge]: https://img.shields.io/azure-devops/build/swellaby/opensource/47/master.svg?style=flat-square
 [ci-pipeline-url]: https://dev.azure.com/swellaby/OpenSource/_build?definitionId=47
 [tests-badge]: https://img.shields.io/azure-devops/tests/swellaby/opensource/47/master.svg?style=flat-square
-[installs-badge]: https://img.shields.io/vscode-marketplace/d/swellaby.common-pack.svg?style=flat-square
+[installs-badge]: https://img.shields.io/vscode-marketplace/i/swellaby.common-pack.svg?style=flat-square
 [version-badge]: https://img.shields.io/vscode-marketplace/v/swellaby.common-pack.svg?style=flat-square
 [rating-badge]: https://img.shields.io/vscode-marketplace/r/swellaby.common-pack.svg?style=flat-square
 [ext-url]: https://marketplace.visualstudio.com/items?itemName=swellaby.common-pack
