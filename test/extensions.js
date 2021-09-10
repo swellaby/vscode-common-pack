@@ -7,7 +7,7 @@ suite('Included Extensions Tests', () => {
   const extensions = manifest.extensionPack;
 
   test('Should have the correct number of extensions', () => {
-    assert.deepEqual(extensions.length, 3);
+    assert.deepEqual(extensions.length, 4);
   });
 
   test('Should include EditorConfig extension', () => {
@@ -20,5 +20,9 @@ suite('Included Extensions Tests', () => {
 
   test('Should include Git Lens extension', () => {
     assert.isTrue(extensions.includes('eamodio.gitlens'));
+  });
+
+  test('Should include our Workspace Config+ extension', () => {
+    assert.isTrue(extensions.includes('swellaby.workspace-config-plus'));
   });
 });

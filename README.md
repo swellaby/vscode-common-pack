@@ -15,6 +15,7 @@ VS Code Extension Pack that contains a few common extensions that we use everywh
 - [EditorConfig][editorconfig-ext-url]
 - [GitLens][gitlens-ext-url]
 - [Code Spell Checker][cspell-ext-url]
+- [Workspace Config+][ws-config-plus-ext-url]
 
 ## Contributing
 
@@ -37,3 +38,4 @@ MIT - see license details [here][license-url]
 [editorconfig-ext-url]: https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig
 [gitlens-ext-url]: https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens
 [cspell-ext-url]: https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+[ws-config-plus-ext-url]: https://marketplace.visualstudio.com/items?itemName=swellaby.workspace-config-plus
