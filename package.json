@@ -9,7 +9,7 @@
     "author": {
         "name": "Swellaby",
         "email": "opensource@swellaby.com",
-        "url": "http://swellaby.com"
+        "url": "https://swellaby.com"
     },
     "categories": [
         "Extension Packs"
@@ -17,12 +17,15 @@
     "extensionPack": [
         "editorconfig.editorconfig",
         "streetsidesoftware.code-spell-checker",
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+        "swellaby.workspace-config-plus"
     ],
     "keywords": [
         "editorconfig",
         "code spell",
-        "gitlens"
+        "gitlens",
+        "workspace config plus",
+        "workspace config+"
     ],
     "galleryBanner": {
         "color": "#2c3e50",
