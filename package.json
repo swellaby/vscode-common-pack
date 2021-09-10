@@ -1,72 +1,74 @@
 {
-	"name": "common-pack",
-	"displayName": "Swellaby Extension Pack",
-	"description": "A set of common extensions that we use everywhere",
-	"version": "0.2.22",
-	"preview": true,
-	"private": true,
-	"publisher": "Swellaby",
-	"author": {
-		"name": "Swellaby",
-		"email": "opensource@swellaby.com",
-		"url": "http://swellaby.com"
-	},
-	"categories": [
-		"Extension Packs"
-	],
-	"extensionPack": [
-		"editorconfig.editorconfig",
-		"streetsidesoftware.code-spell-checker",
-		"eamodio.gitlens"
-	],
-	"keywords": [
-		"editorconfig",
-		"code spell",
-		"gitlens"
-	],
-	"galleryBanner": {
-		"color": "#2c3e50",
-		"theme": "dark"
-	},
-	"engines": {
-		"vscode": "^1.0.0"
-	},
-	"scripts": {
-		"test": "mocha",
-		"test:ci": "mocha --reporter xunit --reporter-option output=.testresults/unit/xunit.xml",
-		"lint": "eslint \"**/*.js\"",
-		"clean": "rimraf .testresults/ .publish/**/*",
-		"package:vsix": "vsce package -o .publish/$npm_package_name-$npm_package_version.vsix",
-		"prepackage:vsix": "mkdirp .publish",
-		"package:vsix:windows": "vsce package -o .publish/%npm_package_name%-%npm_package_version%.vsix",
-		"prepackage:vsix:windows": "mkdirp .publish",
-		"publish:vsix": "vsce publish --packagePath .publish/$npm_package_name-$npm_package_version.vsix",
-		"publish:vsix:windows": "vsce publish --packagePath .publish/%npm_package_name%-%npm_package_version%.vsix",
-		"publish:ext": "vsce publish patch",
-		"vsce:login": "vsce login swellaby",
-		"vsce": "vsce",
-		"version:tagless": "npm --no-git-tag-version version patch",
-		"dev:reset": "npm run clean && node -e \"require('rimraf').sync('node_modules');\" && npm run dev:setup",
-		"dev:setup": "npm i && npm run lint && npm test"
-	},
-	"devDependencies": {
-		"@swellaby/eslint-config": "^2.0.0",
-		"chai": "^4.2.0",
-		"eslint": "^7.0.0",
-		"mkdirp": "^1.0.4",
-		"mocha": "^9.0.0",
-		"prettier": "^2.4.0",
-		"rimraf": "^3.0.2",
-		"vsce": "^1.75.0"
-	},
-	"license": "MIT",
-	"bugs": {
-		"url": "https://github.com/swellaby/vscode-common-pack/issues/new/choose",
-		"email": "opensource@swellaby.com"
-	},
-	"repository": {
-		"type": "git",
-		"url": "https://github.com/swellaby/vscode-common-pack.git"
-	},
-	"homepage": "https://github.com/swellaby/vscode-common-pack"
+  "name": "common-pack",
+  "displayName": "Swellaby Extension Pack",
+  "description": "A set of common extensions that we use everywhere",
+  "version": "0.2.22",
+  "preview": true,
+  "private": true,
+  "publisher": "Swellaby",
+  "author": {
+      "name": "Swellaby",
+      "email": "opensource@swellaby.com",
+      "url": "http://swellaby.com"
+  },
+  "categories": [
+      "Extension Packs"
+  ],
+  "extensionPack": [
+      "editorconfig.editorconfig",
+      "streetsidesoftware.code-spell-checker",
+      "eamodio.gitlens"
+  ],
+  "keywords": [
+      "editorconfig",
+      "code spell",
+      "gitlens"
+  ],
+  "galleryBanner": {
+      "color": "#2c3e50",
+      "theme": "dark"
+  },
+  "engines": {
+      "vscode": "^1.0.0"
+  },
+  "scripts": {
+      "test": "mocha",
+      "test:ci": "mocha --reporter xunit --reporter-option output=.testresults/unit/xunit.xml",
+      "lint": "eslint \"**/*.js\"",
+      "clean": "rimraf .testresults/ .publish/**/*",
+      "format:fix": "prettier --write \"**/*.@(js|md|json|yml)\"",
+      "format:check": "prettier --check \"**/*.@(js|md|json|yml)\"",
+      "package:vsix": "vsce package -o .publish/$npm_package_name-$npm_package_version.vsix",
+      "prepackage:vsix": "mkdirp .publish",
+      "package:vsix:windows": "vsce package -o .publish/%npm_package_name%-%npm_package_version%.vsix",
+      "prepackage:vsix:windows": "mkdirp .publish",
+      "publish:vsix": "vsce publish --packagePath .publish/$npm_package_name-$npm_package_version.vsix",
+      "publish:vsix:windows": "vsce publish --packagePath .publish/%npm_package_name%-%npm_package_version%.vsix",
+      "publish:ext": "vsce publish patch",
+      "vsce:login": "vsce login swellaby",
+      "vsce": "vsce",
+      "version:tagless": "npm --no-git-tag-version version patch",
+      "dev:reset": "npm run clean && node -e \"require('rimraf').sync('node_modules');\" && npm run dev:setup",
+      "dev:setup": "npm i && npm run lint && npm test"
+  },
+  "devDependencies": {
+      "@swellaby/eslint-config": "^2.0.0",
+      "chai": "^4.2.0",
+      "eslint": "^7.0.0",
+      "mkdirp": "^1.0.4",
+      "mocha": "^9.0.0",
+      "prettier": "^2.4.0",
+      "rimraf": "^3.0.2",
+      "vsce": "^1.75.0"
+  },
+  "license": "MIT",
+  "bugs": {
+      "url": "https://github.com/swellaby/vscode-common-pack/issues/new/choose",
+      "email": "opensource@swellaby.com"
+  },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/swellaby/vscode-common-pack.git"
+  },
+  "homepage": "https://github.com/swellaby/vscode-common-pack"
 }

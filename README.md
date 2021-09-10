@@ -1,4 +1,4 @@
-# Swellaby Extension Pack  
+# Swellaby Extension Pack
 
 [![Version Badge][version-badge]][ext-url]
 [![Installs Badge][installs-badge]][ext-url]
@@ -8,19 +8,21 @@
 [![Test Results Badge][tests-badge]][ci-pipeline-url]
 [![License Badge][license-badge]][license-url]
 
-VS Code Extension Pack that contains a few common extensions that we use everywhere. We noticed we were adding these as workspace extension recommendations in every project so we decided to bundle them together in this pack!  
+VS Code Extension Pack that contains a few common extensions that we use everywhere. We noticed we were adding these as workspace extension recommendations in every project so we decided to bundle them together in this pack!
 
 ## Included Extensions
 
-* [EditorConfig][editorconfig-ext-url]
-* [GitLens][gitlens-ext-url]
-* [Code Spell Checker][cspell-ext-url]
+- [EditorConfig][editorconfig-ext-url]
+- [GitLens][gitlens-ext-url]
+- [Code Spell Checker][cspell-ext-url]
 
 ## Contributing
+
 Have a question, feature request, or need to report a bug? Open an issue [here][open-issue-url]!
 
 ## License
-MIT - see license details [here][license-url] 
+
+MIT - see license details [here][license-url]
 
 [license-url]: https://github.com/swellaby/vscode-common-pack/blob/master/LICENSE
 [license-badge]: https://img.shields.io/github/license/swellaby/vscode-common-pack.svg?style=flat-square&color=blue
