@@ -25,6 +25,8 @@ suite('Metadata Tests', () => {
     assert.isTrue(keywords.includes('editorconfig'));
     assert.isTrue(keywords.includes('code spell'));
     assert.isTrue(keywords.includes('gitlens'));
+    assert.isTrue(keywords.includes('workspace config plus'));
+    assert.isTrue(keywords.includes('workspace config+'));
   });
 
   test('Should have the correct gallery banner', () => {
