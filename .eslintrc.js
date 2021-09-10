@@ -1,5 +1,8 @@
 'use strict';
 
 module.exports = {
-    extends: [ '@swellaby' ]
+  extends: ['@swellaby'],
+  rules: {
+    indent: ['error', 2],
+  },
 };

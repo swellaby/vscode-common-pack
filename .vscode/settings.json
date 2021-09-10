@@ -19,12 +19,12 @@
     ".editorconfig"
   ],
   "cSpell.enabledLanguageIds": [
-      "asciidoc",
-      "javascript",
-      "json",
-      "markdown",
-      "plaintext",
-      "text",
+    "asciidoc",
+    "javascript",
+    "json",
+    "markdown",
+    "plaintext",
+    "text"
   ],
   "cSpell.dictionaries": [
     "companies",

@@ -4,21 +4,21 @@ const { assert } = require('chai');
 const manifest = require('../package.json');
 
 suite('Included Extensions Tests', () => {
-    const extensions = manifest.extensionPack;
+  const extensions = manifest.extensionPack;
 
-    test('Should have the correct number of extensions', () => {
-        assert.deepEqual(extensions.length, 3);
-    });
+  test('Should have the correct number of extensions', () => {
+    assert.deepEqual(extensions.length, 3);
+  });
 
-    test('Should include EditorConfig extension', () => {
-        assert.isTrue(extensions.includes('editorconfig.editorconfig'));
-    });
+  test('Should include EditorConfig extension', () => {
+    assert.isTrue(extensions.includes('editorconfig.editorconfig'));
+  });
 
-    test('Should include CodeSpell Checker extension', () => {
-        assert.isTrue(extensions.includes('streetsidesoftware.code-spell-checker'));
-    });
+  test('Should include CodeSpell Checker extension', () => {
+    assert.isTrue(extensions.includes('streetsidesoftware.code-spell-checker'));
+  });
 
-    test('Should include Git Lens extension', () => {
-        assert.isTrue(extensions.includes('eamodio.gitlens'));
-    });
+  test('Should include Git Lens extension', () => {
+    assert.isTrue(extensions.includes('eamodio.gitlens'));
+  });
 });
